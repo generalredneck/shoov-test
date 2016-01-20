@@ -63,7 +63,7 @@ describe('Visual monitor testing', function() {
       .url(baseUrl)
       .webdrivercss(testName + '.homepage', {
         name: '1',
-        exclude: [],
+        exclude: ['#block-block-5 div.body div'],
         remove: [],
         hide: [],
         screenWidth: selectedCaps == 'chrome' ? [640, 960, 1200] : undefined,
